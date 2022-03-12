@@ -17,19 +17,17 @@ const Landing = () => {
       <section class="banner">
         <div class="container">
           <div class="banner-text">
-            <h1>
-              EarB
-              {/* <i class="bx bx-bitcoin"></i> */}
-              uck
-            </h1>
+            <h1>€arBuck</h1>
             <p>
               <strong>
                 {/* We make it easy to get the most out of your virtual machine. */}
                 An online budget tracker.
               </strong>{" "}
               One stop for all your budget tracking needs. We present an
-              intelligent online budget tracker (BlueTracker) to efficiently
-              manage budget.
+              intelligent online budget tracker to efficiently manage budget.
+              The Intelligent Online Budget Tracker not only keeps track of the
+              budget but also provides means to analyze data via charts and
+              graphs
               {/* Our system will help to plan and track budget
               related issues where members of the system can securely access it
               anytime from anywhere via the Internet. */}
@@ -45,7 +43,7 @@ const Landing = () => {
         />
       </section>
 
-      <div class="container">
+      <div style={{ marginTop: "80px" }} class="container">
         <div class="row">
           <div class="mb-30 col-md-6 col-lg-4">
             <div class="card">
@@ -60,9 +58,6 @@ const Landing = () => {
                 always have enough money for the things you need and the things
                 that are important to you.
               </p>
-              <a class="card-link" href="#">
-                Learn more
-              </a>
             </div>
           </div>
           <div class="mb-30 col-md-6 col-lg-4">
@@ -77,9 +72,6 @@ const Landing = () => {
                 Preparing budgets for the future period, comparing the standards
                 set by budget with the actual performance.
               </p>
-              <a class="card-link" href="#">
-                Learn more
-              </a>
             </div>
           </div>
           <div class="mb-30 col-md-6 col-lg-4">
@@ -95,9 +87,6 @@ const Landing = () => {
                 security with authentication, and control your resource spend
                 with centralized billing–at no additional cost.
               </p>
-              <a class="card-link" href="#">
-                Learn more
-              </a>
             </div>
           </div>
           <div class="mb-30 col-md-6 col-lg-4">
@@ -112,9 +101,6 @@ const Landing = () => {
                 Backups run automatically on your Droplets each week and are
                 stored for four weeks–add 20% of monthly Droplet cost.
               </p>
-              <a class="card-link" href="#">
-                Learn more
-              </a>
             </div>
           </div>
           <div class="mb-30 col-md-6 col-lg-4">
@@ -130,9 +116,6 @@ const Landing = () => {
                 existing server, then spin up a new Droplet from the
                 snapshot–add $0.05 per gigabyte per month.
               </p>
-              <a class="card-link" href="#">
-                Learn more
-              </a>
             </div>
           </div>
           <div class="mb-30 col-md-6 col-lg-4">
@@ -148,9 +131,6 @@ const Landing = () => {
                 receive alerts when problems arise in your infrastructure–at no
                 additional cost.
               </p>
-              <a class="card-link" href="#">
-                Learn more
-              </a>
             </div>
           </div>
         </div>
@@ -217,7 +197,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <footer>
+      {/* <footer>
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -251,6 +231,22 @@ const Landing = () => {
             </div>
           </div>
         </div>
+      </footer> */}
+      <footer
+        style={{ backgroundColor: "white" }}
+        class="pt-3 mt-4 text-muted border-top"
+      >
+        <center>
+          Made with ❤️ by team BlueBots
+          {/* <!-- <br><br> --> */}
+          <br />
+          <a
+            href="https://github.com/vaibhavkumar5/Blue-Tracker"
+            target="_blank"
+          >
+            Source Code at GitHub
+          </a>
+        </center>
       </footer>
     </>
   );
