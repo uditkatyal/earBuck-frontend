@@ -1,4 +1,5 @@
 import React, { components } from "react";
+import Profile from "./Profile";
 
 class Dash extends React.Component {
   render() {
