@@ -3,17 +3,6 @@ import "boxicons";
 const Landing = () => {
   return (
     <>
-      {/* <nav>
-        <div class="logo">
-          <div class="arrow-down"></div>
-        </div>
-        <ul>
-          <li>Services</li>
-          <li>Products</li>
-          <li>FAQs</li>
-          <li>Contact</li>
-        </ul>
-      </nav> */}
       <section class="banner">
         <div class="container">
           <div class="banner-text">
@@ -160,7 +149,7 @@ const Landing = () => {
         <div class="team">
           <div class="team_member">
             <div class="team_img">
-              <img src="src/assets/images/ayushBadwa.jpeg" alt="Team_image" />
+              <img src="src/assets/images/ayush.jpeg" alt="Team_image" />
             </div>
             <a href="https://www.linkedin.com/in/ayushverma02/" target="_blank">
               <h3>Ayush Verma</h3>
@@ -169,7 +158,7 @@ const Landing = () => {
             <p>
               Full Stack Web Developer
               <br />
-              Django | Rest API | React JS | PHP
+              Django | Rest API | MERN
             </p>
           </div>
           <div class="team_member">

@@ -18,7 +18,7 @@ class Dash extends React.Component {
           >
             <div className="container-fluid">
               <a className="navbar-brand" href="/">
-                Blue<span className="text-primary">Tracker</span>
+                Ear<span className="text-primary">Buck</span>
               </a>
               <button
                 className="navbar-toggler"
